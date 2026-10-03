@@ -1,6 +1,6 @@
 # D Galpão Agropet — site
 
-Site de página única da **D Galpão Agropecuária** (Gravataí/RS): rações, banho e tosa, tele-entrega e pedido fechado pelo WhatsApp.
+Site de página única da **D Galpão Agropecuária** (Gravataí/RS): rações, petiscos, medicamentos, artigos gaúchos, tele-entrega e pedido fechado pelo WhatsApp.
 
 - HTML, CSS e JS puros, sem build e sem dependências.
 - **Conteúdo editável** (produtos, slides, contatos): `js/data.js`. O `js/main.js` só renderiza.

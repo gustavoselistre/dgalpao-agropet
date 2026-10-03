@@ -9,12 +9,11 @@ Este documento serve de referência para reaproveitar decisões, código e apren
 | Item | Valor |
 |------|-------|
 | Nome | D Galpão Agropecuária. No novo branding, **D GALPÃO AGROPET** |
-| Ramo | Agropecuária com foco em pets: rações, petiscos, medicamentos, acessórios, banho e tosa. Também vende artigos gaúchos (cuias, bombas, erva) |
+| Ramo | Agropecuária com foco em pets: rações, petiscos, medicamentos e acessórios. Também vende artigos gaúchos (cuias, bombas, erva) |
 | Público | Donos de cães e gatos da região, num clima de loja de bairro |
 | Endereço | Rua Estácio dos Santos, 1144, Bom Sucesso, Gravataí/RS |
 | Horário da loja | Seg a Sáb, 8h às 21h |
 | Tele-entrega | Seg a Sáb, 9h às 21h |
-| Serviços | Banho e tosa com **tele-busca** (buscam e levam o pet) |
 | Pagamentos | Pix, cartão de crédito, cartão de débito, dinheiro |
 | WhatsApp | `555195035109`. ⚠️ Tem 8 dígitos depois do DDD; se não abrir a conversa certa, usar `5551995035109` |
 | Instagram | [@dgalpaoagropecuaria](https://www.instagram.com/dgalpaoagropecuaria/), com cerca de 1,3 mil seguidores |
@@ -43,7 +42,7 @@ Este documento serve de referência para reaproveitar decisões, código e apren
 ### Linguagem visual
 - Títulos em **blocos verde-escuros** atrás de cada linha, como "TELE / ENTREGA" nas artes: classes `.block-title` e `.slide__title span`.
 - Fotos de pets dentro de **molduras orgânicas (blob)** com borda branca grossa (`border-radius` assimétrico), já que não há fotos recortadas.
-- Blobs e ondas SVG entre seções, bolhas de sabão na seção de banho.
+- Blobs e ondas SVG entre seções.
 - Cards com cantos bem arredondados (22 a 34px), sombras suaves e verdes.
 - Logo num **"crachá" branco pendurado** no topo do header (cantos de baixo arredondados).
 - Bullets em quadradinho lime com check verde-escuro (`.checks`), igual às artes ("✓ Rico em proteínas").
@@ -76,24 +75,24 @@ Peças previstas: logo refinado, foto de perfil 1:1 (símbolo branco sobre lime)
 
 | # | Seção | Âncora | Fundo | Conteúdo |
 |---|-------|--------|-------|----------|
-| 1 | Header fixo | `#topo` | transparente; verde-escuro com blur ao rolar | Crachá do logo, menu (Rações · Banho e tosa · Contato; **sem link do Instagram**, a pedido do cliente), botão "Meu pedido" com contador, hambúrguer no celular |
-| 2 | Carrossel hero | — | varia por slide | 5 slides em tela cheia (`100svh`, máx. 1000px) |
-| 3 | Faixa de benefícios | — | `--dark` | Tele-entrega · Banho e tosa · Pix e cartões · Artigos gaúchos |
+| 1 | Header fixo | `#topo` | transparente; verde-escuro com blur ao rolar | Crachá do logo, menu (Rações · Contato; **sem link do Instagram**, a pedido do cliente), botão "Meu pedido" com contador, hambúrguer no celular |
+| 2 | Carrossel hero | — | varia por slide | 4 slides em tela cheia (`100svh`, máx. 1000px) |
+| 3 | Faixa de benefícios | — | `--dark` | Tele-entrega · Saúde do pet · Pix e cartões · Artigos gaúchos |
 | 4 | Destaques de ração | `#racoes` | `--lime` | Filtros, cards de produto, "Pergunte no WhatsApp" |
 | 5 | Departamentos | — | `--teal` | 3 cards: Rações e Petiscos / Brinquedos, Caminhas e Medicamentos / Artigos Gaúchos |
-| 6 | Banho e tosa | `#servicos` | `--cream` | Foto em blob, "Tá na hora do banho?", sticker "Temos tele-busca!", CTA de agendamento |
-| 7 | Instagram | `#instagram` | `--deep` | Grade estática de 6 fotos que linkam o perfil, botão "Seguir" |
-| 8 | Visite-nos | `#contato` | `--lime` | Card "Venha nos visitar!" (endereço, horários, WhatsApp, pagamentos) + iframe do Google Maps |
-| 9 | Rodapé | — | `--deep` | Logo, "Tudo para o bem-estar do seu pet em um só lugar!", redes |
+| 6 | Instagram | `#instagram` | `--deep` | Grade estática de 6 fotos que linkam o perfil, botão "Seguir" |
+| 7 | Visite-nos | `#contato` | `--lime` | Card "Venha nos visitar!" (endereço, horários, WhatsApp, pagamentos) + iframe do Google Maps |
+| 8 | Rodapé | — | `--deep` | Logo, "Tudo para o bem-estar do seu pet em um só lugar!", redes |
 | — | WhatsApp flutuante | — | — | Canto inferior direito, com pulso animado |
 | — | Gaveta do pedido | `#carrinho` | `--cream` | Painel lateral no desktop, painel que sobe de baixo no celular |
 
 ### Slides do carrossel (copiados das artes)
-1. "Deixa com a gente!" / **TÁ NA HORA / DO BANHO?**: abre o WhatsApp para agendar.
-2. "Direto na sua casa" / **TELE / ENTREGA**: rola até as rações.
-3. "Cães e gatos" / **RAÇÕES / SEVEN PETS**: rola até as rações.
-4. "Calma!" / **ESQUECEU / DA RAÇÃO?**: abre o WhatsApp.
-5. "Temos muitos para o seu pet" / **PETISCOS / NATURAIS?**: rola até as rações e ativa o filtro de petiscos.
+1. "Direto na sua casa" / **TELE / ENTREGA**: rola até as rações.
+2. "Cães e gatos" / **RAÇÕES / SEVEN PETS**: rola até as rações.
+3. "Calma!" / **ESQUECEU / DA RAÇÃO?**: abre o WhatsApp.
+4. "Temos muitos para o seu pet" / **PETISCOS / NATURAIS?**: rola até as rações e ativa o filtro de petiscos.
+
+O serviço de banho e tosa foi retirado do site (slide, menu, faixa de benefícios e seção própria).
 
 Temas por slide: `lime`, `dark`, `teal`, `light`. Cada tema troca as variáveis `--bg`, `--fg`, `--block-bg`, `--block-fg` e `--accent`.
 

@@ -565,48 +565,6 @@ p { margin: 0; }
 }
 .dept { position: relative; }
 
-/* ---------- Banho e tosa ---------- */
-.bath { overflow: hidden; }
-.bath__grid { display: grid; gap: 48px; align-items: center; }
-@media (min-width: 960px) { .bath__grid { grid-template-columns: 1fr 1fr; gap: 64px; } }
-.bath__media { position: relative; max-width: 520px; width: 100%; justify-self: center; }
-.blob-img {
-  aspect-ratio: 1;
-  border-radius: 42% 58% 60% 40% / 48% 38% 62% 52%;
-  overflow: hidden;
-  border: 10px solid var(--lime);
-  box-shadow: var(--shadow-lg);
-}
-.blob-img img { width: 100%; height: 100%; object-fit: cover; }
-.bubble {
-  position: absolute; border-radius: 50%;
-  background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, .95), rgba(255, 255, 255, .25) 40%, rgba(19, 163, 122, .25) 70%, rgba(255, 255, 255, .6));
-  border: 1px solid rgba(255, 255, 255, .8);
-  box-shadow: inset -4px -6px 12px rgba(19, 163, 122, .25);
-  animation: float 6s ease-in-out infinite;
-}
-.bubble--1 { width: 80px; height: 80px; top: -10px; right: 6%; }
-.bubble--2 { width: 46px; height: 46px; bottom: 18%; left: -12px; animation-delay: -2s; }
-.bubble--3 { width: 28px; height: 28px; top: 30%; left: 6%; animation-delay: -4s; }
-@keyframes float { 50% { transform: translateY(-14px); } }
-.sticker {
-  position: absolute; right: -4px; bottom: 6%;
-  background: var(--teal); color: var(--white);
-  font-family: var(--font-display); font-size: 1.35rem; line-height: 1.05; text-transform: uppercase;
-  padding: 14px 18px; border-radius: 20px 20px 20px 4px;
-  transform: rotate(5deg);
-  box-shadow: var(--shadow);
-}
-.bath__content { display: flex; flex-direction: column; align-items: flex-start; gap: 22px; }
-.bath__content .display--xl { color: var(--dark); }
-.info-card {
-  background: var(--teal); color: var(--white);
-  border-radius: var(--radius); padding: 22px 24px;
-  display: grid; gap: 14px; max-width: 480px;
-  font-size: 1.05rem;
-}
-.info-card .checks { font-size: .95rem; }
-
 /* ---------- Instagram ---------- */
 .insta-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
 @media (min-width: 640px) { .insta-grid { grid-template-columns: repeat(3, 1fr); gap: 14px; } }

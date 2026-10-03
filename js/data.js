@@ -23,17 +23,6 @@ const unsplash = (id, w = 1600) =>
 /* Carrossel do topo. action: "whatsapp" abre conversa com `message`; "#id" rola até a seção. */
 const SLIDES = [
   {
-    eyebrow: "Deixa com a gente!",
-    title: ["Tá na hora", "do banho?"],
-    text: "Seu pet limpo, cheiroso e feliz, do jeitinho que ele merece. E ainda temos tele-busca!",
-    cta: "Agendar banho e tosa",
-    action: "whatsapp",
-    message: "Olá! Quero agendar um banho e tosa para o meu pet 🐶",
-    image: unsplash("1516734212186-a967f81ad0d7"),
-    alt: "Cachorro golden sendo escovado após o banho",
-    theme: "lime",
-  },
-  {
     eyebrow: "Direto na sua casa",
     title: ["Tele", "entrega"],
     text: "Entregamos a ração do seu pet direto na sua casa. Das 9h às 21h, de segunda a sábado.",

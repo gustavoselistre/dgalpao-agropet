@@ -132,7 +132,7 @@
     track.innerHTML = SLIDES.map((s, i) => {
       const isWa = s.action === "whatsapp";
       const href = isWa ? waUrl(s.message) : s.action;
-      const badge = i === 0 ? `${ICONS.truck}<span>Temos<br>tele-busca!</span>` : `${ICONS.check}<span>D Galpão<br>Gravataí</span>`;
+      const badge = i === 0 ? `${ICONS.truck}<span>Tele-entrega<br>9h às 21h</span>` : `${ICONS.check}<span>D Galpão<br>Gravataí</span>`;
       return `
       <article class="slide slide--${s.theme}" role="group" aria-roledescription="slide" aria-label="${i + 1} de ${SLIDES.length}" ${i ? 'aria-hidden="true"' : ""}>
         <div class="container slide__inner">
@@ -552,7 +552,7 @@
 
   /* ---------- Reveal ---------- */
   function initReveal() {
-    $$(".section-head, .visit__card, .visit__map, .bath__media, .bath__content, .depts__intro").forEach((el) => el.classList.add("reveal"));
+    $$(".section-head, .visit__card, .visit__map, .depts__intro").forEach((el) => el.classList.add("reveal"));
     const els = $$(".reveal");
     if (!("IntersectionObserver" in window) || reducedMotion) {
       els.forEach((el) => el.classList.add("is-visible"));
