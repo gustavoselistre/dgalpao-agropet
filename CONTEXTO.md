@@ -15,7 +15,7 @@ Este documento serve de referência para reaproveitar decisões, código e apren
 | Horário da loja | Seg a Sáb, 8h às 21h |
 | Tele-entrega | Seg a Sáb, 9h às 21h |
 | Pagamentos | Pix, cartão de crédito, cartão de débito, dinheiro |
-| WhatsApp | `555195035109`. ⚠️ Tem 8 dígitos depois do DDD; se não abrir a conversa certa, usar `5551995035109` |
+| WhatsApp | `5551995035109` ((51) 99503-5109). Confirmado: o número com 9 dígitos abre a conversa certa |
 | Instagram | [@dgalpaoagropecuaria](https://www.instagram.com/dgalpaoagropecuaria/), com cerca de 1,3 mil seguidores |
 | Destaques do Instagram | Perguntas, Tele entrega, Horários, Clientes, Pagamentos, Endereço |
 | Marcas vistas nos posts | Seven Pets (Seven Dogs / Seven Cats), Special Dog Gold, Mandala, Mastig (petiscos), Vetaglós (Vetnil), Drontal Gatos |
@@ -179,7 +179,7 @@ Pode confirmar os valores e a disponibilidade? Obrigado!
 ---
 
 ## 6. Pendências e próximos passos
-- [ ] Confirmar o número do WhatsApp (8 ou 9 dígitos).
+- [x] Confirmar o número do WhatsApp: são 9 dígitos (`5551995035109`).
 - [ ] Trocar as fotos do Unsplash pelas artes reais (`img/README.md`).
 - [ ] Colocar preços (opcional) em `PRODUCTS[].price`.
 - [ ] Aplicar o novo logo vetorizado no header, no rodapé, no favicon e no `og:image`.

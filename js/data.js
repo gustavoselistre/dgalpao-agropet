@@ -6,12 +6,12 @@
 
 const CONFIG = {
   // Número no formato internacional, só dígitos (55 + DDD + número).
-  // Se o link não abrir a conversa certa, teste com o 9 extra: "5551995035109".
-  whatsapp: "555195035109",
-  whatsappDisplay: "(51) 9503-5109",
+  whatsapp: "5551995035109",
+  whatsappDisplay: "(51) 99503-5109",
   instagram: "dgalpaoagropecuaria",
   address: "Rua Estácio dos Santos, 1144 – Bom Sucesso, Gravataí/RS",
-  mapsQuery: "Rua Estácio dos Santos, 1144, Bom Sucesso, Gravataí - RS",
+  // Ponto exato da loja (esquina). Busca por endereço punha o pin no meio da quadra.
+  mapsQuery: "-29.929306,-51.033518",
   hours: "Seg a Sáb · 8h às 21h",
   deliveryHours: "Tele-entrega · 9h às 21h, seg a sáb",
   payments: ["Pix", "Cartão de crédito", "Cartão de débito", "Dinheiro"],
