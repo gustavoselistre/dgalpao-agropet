@@ -1,0 +1,8 @@
+# Added by claude-sandbox bootstrap
+deploy_key
+.chrome-puppet/
+
+# Local tooling (não vai para o repositório nem para o site)
+.ccpraxis-local-data/
+.claude/settings.local.json
+.DS_Store
