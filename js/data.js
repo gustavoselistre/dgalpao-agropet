@@ -9,9 +9,14 @@ const CONFIG = {
   whatsapp: "5551995035109",
   whatsappDisplay: "(51) 99503-5109",
   instagram: "dgalpaoagropecuaria",
-  address: "Rua Estácio dos Santos, 1144 – Bom Sucesso, Gravataí/RS",
+  address: "Rua Estácio dos Santos, 1144 – Bom Sucesso, Gravataí/RS – CEP 94130-420",
   // Ponto exato da loja (esquina). Busca por endereço punha o pin no meio da quadra.
   mapsQuery: "-29.929306,-51.033518",
+  // Link do perfil da loja no Google ("Compartilhar" no Google Maps). Usado em "Ver no mapa" e "Como chegar".
+  // Vazio = abre a busca pelo nome da loja em Gravataí.
+  mapsProfile: "https://maps.app.goo.gl/YxQ5RdHMZ42HMMKg8",
+  mapsProfileQuery: "D Galpão Agropecuária, Gravataí - RS",
+  cep: "94130-420",
   hours: "Seg a Sáb · 8h às 21h",
   deliveryHours: "Tele-entrega · 9h às 21h, seg a sáb",
   payments: ["Pix", "Cartão de crédito", "Cartão de débito", "Dinheiro"],

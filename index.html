@@ -29,6 +29,7 @@
       "streetAddress": "Rua Estácio dos Santos, 1144",
       "addressLocality": "Gravataí",
       "addressRegion": "RS",
+      "postalCode": "94130-420",
       "addressCountry": "BR"
     },
     "openingHoursSpecification": [{
@@ -250,10 +251,33 @@
           </div>
         </fieldset>
 
-        <label class="field" data-address-field>
-          <span>Endereço de entrega</span>
-          <textarea name="address" rows="2" autocomplete="street-address" placeholder="Rua, número, bairro e referência"></textarea>
-        </label>
+        <div class="pickup" data-pickup hidden>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+          <div>
+            <strong>Retire na loja</strong>
+            <p data-config="address"></p>
+            <p class="pickup__note" data-config="hours"></p>
+            <a class="link-strong" href="#" target="_blank" rel="noopener" data-maps-link>Ver no mapa →</a>
+          </div>
+        </div>
+
+        <div class="address" data-address-field>
+          <div class="address__row">
+            <label class="field">
+              <span>CEP</span>
+              <input name="cep" inputmode="numeric" autocomplete="postal-code" maxlength="9" placeholder="00000-000">
+            </label>
+            <label class="field">
+              <span>Número</span>
+              <input name="number" autocomplete="address-line2" placeholder="Nº, apto…">
+            </label>
+          </div>
+          <p class="cep-status" data-cep-status aria-live="polite">Digite o CEP para preencher o endereço. <a href="https://buscacepinter.correios.com.br/app/endereco/index.php" target="_blank" rel="noopener">Não sei meu CEP</a></p>
+          <label class="field">
+            <span>Endereço de entrega</span>
+            <textarea name="address" rows="2" autocomplete="street-address" placeholder="Rua, bairro e referência"></textarea>
+          </label>
+        </div>
 
         <label class="field">
           <span>Forma de pagamento</span>
